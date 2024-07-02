@@ -1,10 +1,14 @@
 # web de un perfil de usuario
 
 Tecnologías Utilizadas
-Next.js 14
-React
-HTML5 y CSS3 (con CSS Modules)
-Jest y Testing Library
+
+-Next.js 14
+
+-React
+
+-HTML5 y CSS3 (con CSS Modules)
+
+-Jest y Testing Library
 
 ## Instalación
 
