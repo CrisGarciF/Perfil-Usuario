@@ -1,0 +1,44 @@
+.interests {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.interests h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: aqua;
+    width: 120px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card{
+    width: 90%;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px 5px #a5a0a0;
+}
+
+.interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests li {
+    margin: 5px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .interests {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

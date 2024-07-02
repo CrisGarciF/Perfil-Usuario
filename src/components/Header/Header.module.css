@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.userImg {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+.name {
+    font-size: 2rem;
+    margin-top: 10px;
+}

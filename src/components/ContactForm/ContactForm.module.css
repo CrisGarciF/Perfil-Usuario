@@ -1,0 +1,94 @@
+.contact {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    background-color: #00ffff;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.contact input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.contact textarea{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.contact button{
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #00ffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contact button:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+.message{
+    font-size: 1.5rem;
+    font-weight: 800;
+    background-color: #00ff37;
+    width: 200px;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .contact {
+    animation: fadeIn 1s ease-in;
+}
+
+
+@media (max-width: 700px) {
+    .contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact input,
+    .contact textarea{
+       width: 100%;
+    }
+}
