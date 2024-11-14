@@ -1,4 +1,4 @@
-# web de un perfil de usuario
+# web de un perfil de usuario.
 
 Tecnologías Utilizadas:
 
