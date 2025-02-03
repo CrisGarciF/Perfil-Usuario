@@ -22,10 +22,10 @@ npm install
 
 3. Ejecucion:
 
-npm run dev
+npm run dev.
 
 Esto iniciará el servidor de desarrollo en http://localhost:3000.
 
-4. Test
+4. Test:
 
-npm test
+npm test.
