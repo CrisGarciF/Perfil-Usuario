@@ -28,4 +28,6 @@ Esto iniciará el servidor de desarrollo en http://localhost:3000.
 
 4. Test:
 
-npm test.
+npm test
+
+FIN------
