@@ -1,14 +1,14 @@
-# web de un perfil de usuario.
+# web de un perfil de usuario
 
 Tecnologías Utilizadas:
 
-- Next.js 14.
+- Next.js 14
 
-- React.
+- React
 
-- HTML5 y CSS3 (con CSS Modules).
+- HTML5 y CSS3 (con CSS Modules)
 
-- Jest y Testing Library.
+- Jest y Testing Library
 
 ## Instalación
 
@@ -22,7 +22,7 @@ npm install
 
 3. Ejecucion:
 
-npm run dev.
+npm run dev
 
 Esto iniciará el servidor de desarrollo en http://localhost:3000.
 
